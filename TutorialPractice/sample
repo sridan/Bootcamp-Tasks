@@ -1,2 +1,0 @@
-getusername=lambda :input('Enter yourname')
-print(getusername())
