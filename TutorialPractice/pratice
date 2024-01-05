@@ -1,0 +1,12 @@
+import math
+import imaplib
+x=[2,3,6,6,5]
+res=sorted(x)
+c=0
+for i in range(len(x)):
+  if res[i]==i:
+      c=c+1
+      
+      
+l=len(x)-c      
+print(l)
